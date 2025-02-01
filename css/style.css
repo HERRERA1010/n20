@@ -4,9 +4,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-
+/*VARIABLES GENERALES*/
 .color-principal {
     color: var(color-principal) !important;
+}
+.sombra{
+    box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.75);
+}
+.btn{
+    background-color: var(--color-principal);
+    color: #fff;
+    padding: 5px 18px !important ;
 }
 
 body {
@@ -223,4 +233,12 @@ footer {
 
 footer a {
     color: #fff;
+}
+
+/*MEDIA QUERYS*/
+
+@media screen and (max-width: 768px){
+    .fuente-gigante{
+        font-size: 2em;
+    }
 }
