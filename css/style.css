@@ -18,7 +18,10 @@
     color: #fff;
     padding: 5px 18px !important ;
 }
-
+.img-logo{
+    width: 50%; 
+    height: auto; 
+}
 body {
     font-family: "Roboto", sans-serif !important;
     line-height: 1.8;
@@ -28,7 +31,6 @@ body {
     border-color: transparent;
 }
 .card-img-top{
-  
     height: auto;
     width: 50%;
 }
@@ -42,12 +44,10 @@ body {
 .height-section{
     height: 450px;
 }
-
 .titulos-font{
     font-family: "Josefin Slab", "serif";
     font-optical-sizing: auto;
     font-weight:lighter ;
-    
 }
 .fuente-secundaria{
     font-family: "Assistant", serif;
@@ -55,7 +55,6 @@ body {
     font-weight: 100;
     font-style: normal;
 }
-
 h1,
 h2,
 h3,
@@ -64,14 +63,9 @@ h5,
 h6 {
     font-weight: 400 !important;
 }
-
-
-  
-
 a {
     text-decoration: none;
     transition: all 0.4s ease;
-    
     color: #20212c;
 }
 
@@ -191,25 +185,21 @@ background: radial-gradient(circle, rgba(28,56,121,1) 0%, rgba(0,0,0,0.966824229
     -webkit-text-fill-color: transparent;
     font-size: 54px;
 }
-
-
 .review {
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
 }
-
 .review .person {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
     padding-bottom: 18px;
 }
-
 .review .person img {
     width: 75px;
     height: 75px;
     border-radius: 100px;
 }
-
+s
 form .form-control {
     border: 0.9px solid #ffffff;
     border-radius: 0;
