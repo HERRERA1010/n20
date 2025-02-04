@@ -54,7 +54,15 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+  
 }
+.biryani-regular {
+    font-family: "Biryani", serif;
+    font-weight: 400;
+   
+   
+  }
+  /*FINAL CLASSES PARA TEXTO*/
 h1,
 h2,
 h3,
