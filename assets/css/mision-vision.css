@@ -1,0 +1,14 @@
+.foto-radius{
+    border-radius: 5%;
+}
+
+
+.max-height{
+    max-height: 370px;
+    max-width: 350px;
+    margin: auto;
+}
+
+.card {
+    border: none !important;
+}

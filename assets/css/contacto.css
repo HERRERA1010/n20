@@ -1,0 +1,43 @@
+.bg-img{
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-main {
+    background: var(--color-principal);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+
+form .form-control {
+    border: 0.9px solid #ffffff;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    
+}
+
+form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+form input.form-control {
+    height: 54px;
+}
+
+form .form-control::placeholder {
+    color: #fff;
+}
+
+.no-border{
+    border: #ffffff00 !important;
+
+}

@@ -1,0 +1,20 @@
+.titulos-text{
+   font-size: 5vw;    
+}
+
+.general-text{
+   font-size: 1rem;
+}
+
+
+@media (min-width:768px) {
+   .lg-text-center{
+      text-align: center;
+   }
+      .pading-lg{
+         padding: 30px;
+      }
+      .p-2{
+         padding: none;
+      }  
+}

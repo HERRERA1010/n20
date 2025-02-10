@@ -1,0 +1,20 @@
+ .servicios-contenedor{
+   background-color: var(--color-principal);
+   color: #ffff;
+}
+ .servicio{ 
+    background-color: chartreuse;
+}
+ .servicios{
+  width: 100%;
+  background-color: darkblue;
+  margin: auto;
+ }
+
+
+ .brservicios{
+   border-radius: 114px 31px 110px 0px;
+   -moz-border-radius: 114px 31px 110px 0px;
+   -webkit-border-radius: 114px 31px 110px 0px;
+   border: 0px solid #e9e9e9;
+ }

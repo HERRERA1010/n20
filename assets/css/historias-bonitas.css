@@ -1,0 +1,12 @@
+.img-trabajos-previos{
+    margin: 20px auto;
+    width: 55%;
+}
+
+@media (min-width:767px){
+    .img-trabajos-previos{
+        margin: 20px auto;
+        width: 35%;
+    }
+}
+
