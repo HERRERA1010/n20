@@ -29,7 +29,7 @@ body{
     background-color: var(--blanco-sustituto);
 }
 .margin-top{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 /*TEXTOS */
@@ -48,7 +48,8 @@ body{
 
 .fuente-brand{
     font-family: 'elephant', cursive !important;
-    font-weight:lighter;
+    font-weight:100;
+    font-size: 1em;
 }
 
 .navbar{
@@ -57,11 +58,16 @@ body{
     -moz-box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
 }
 
-
-
-@media (max-width:1023px) {
+@media (max-width:650px) {
     .margin-top{
-        margin-top: 20%;
+        margin-top:  15%;
+    }
+    
+ }
+
+@media (max-width:425px) {
+    .margin-top{
+        margin-top: 19%;
     }
     
  }
