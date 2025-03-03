@@ -1,3 +1,6 @@
+ 
+ 
+ 
  .servicios-contenedor{
    background-color: var(--color-principal);
    color: #ffff;
@@ -13,8 +16,5 @@
 
 
  .brservicios{
-   border-radius: 50px 50px 50px 0px;
-   -moz-border-radius: 50px 50px 50px 0px;
-   -webkit-border-radius: 50px 50px 50px 0px;
-   border: 0px solid #e9e9e9;
+   border-radius: 10px;
  }
