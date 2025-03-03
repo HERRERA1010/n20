@@ -1,29 +1,28 @@
 :root {
-    --color-principal: #162d61;
-    --color-secundario: #acb392;
+    --color-principal: #15284C;
+    --color-secundario: #BD9A5E;
     --blanco-sustituto:#f5f5f5;
 }
-
 /*FUENTE DE PRINCIPAL DE LA MARCA*/
 @font-face {
     font-family: 'elephant';
     src: url('../font/ELEPHNT.TTF');
 }
-
 /*CLASES GENERALES*/
-
 .img-fluid {
     width: 100%;
     max-height: 650px;
   }
 body{
     background-color: var(--blanco-sustituto);
+    padding: 0;
 }
-
+.container-fluid{
+    padding:0 
+}
 .background-color-principal{
     background-color: var(--color-principal);
 }
-
 .card{
     border: none;
     background-color: var(--blanco-sustituto);
@@ -35,31 +34,31 @@ body{
     margin-bottom: 7%;
 }
 /*TEXTOS */
-
 .text-color-principal{
     color: var(--color-principal);
 }
-
 .sombra-textos{
     text-shadow: -3px 9px 6px rgba(0,0,0,0.27);
 }
-
-
-
-/*ESTILOS A LA BARRA DE NAVEGACION*/
-
+.titulos-text{
+    font-size: 5vw;    
+ }
+ .general-text{
+    font-size: 1rem;
+    font-weight:300 ;
+ }
+  /*ESTILOS A LA BARRA DE NAVEGACION*/
 .fuente-brand{
-    font-family: 'elephant', cursive !important;
-    font-weight:100;
-    font-size: 1em;
+    font-weight:500;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
-
 .navbar{
     box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
     -webkit-box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
     -moz-box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
 }
-
 @media (max-width:650px) {
     .margin-top{
         margin-top:  15%;
@@ -71,5 +70,8 @@ body{
     .margin-top{
         margin-top: 19%;
     }
+    .titulos-text{
+        font-size: 10vw;    
+     }
     
  }
