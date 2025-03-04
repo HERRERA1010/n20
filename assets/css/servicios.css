@@ -10,7 +10,7 @@
 }
  .servicios{
   width: 100%;
-  background-color: darkblue;
+  background-color: var(--color-principal);
   margin: auto;
  }
 
