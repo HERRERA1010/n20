@@ -41,7 +41,10 @@ body{
     text-shadow: -3px 9px 6px rgba(0,0,0,0.27);
 }
 .titulos-text{
-    font-size: 5vw;    
+    font-size: 4vw;    
+ }
+ .titulos-md{
+    font-size: 3vw;
  }
  .general-text{
     font-size: 1rem;
