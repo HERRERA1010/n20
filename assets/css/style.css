@@ -76,5 +76,8 @@ body{
     .titulos-text{
         font-size: 10vw;    
      }
+     .titulos-md{
+        font-size: 6vw;
+     }
     
  }
