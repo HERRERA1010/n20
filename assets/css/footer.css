@@ -1,14 +1,12 @@
 footer {
-    background: var(--color-principal);
-    color: #fff;
+  background: var(--color-principal);
+  color: #fff;
 }
-
-
 
 footer a {
-    color: #fff;
+  color: #fff;
 }
 
-.iconos-color{
-    color: #fff;
+.iconos-color {
+  color: #fff;
 }
