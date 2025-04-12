@@ -33,7 +33,7 @@ body{
 .margin-bottom{
     margin-bottom: 7%;
 }
-/*TEXTOS */
+/*TEXTOS************** */
 .text-color-principal{
     color: var(--color-principal);
 }
@@ -49,6 +49,9 @@ body{
  .general-text{
     font-size: 1rem;
     font-weight:300 ;
+ }
+ .color-secundario{
+    color: var(--color-secundario);
  }
   /*ESTILOS A LA BARRA DE NAVEGACION*/
 .fuente-brand{
