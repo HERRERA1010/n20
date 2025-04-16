@@ -55,9 +55,10 @@ body{
  }
   /*ESTILOS A LA BARRA DE NAVEGACION*/
 .fuente-brand{
-    font-weight:600;
+    font-weight:500;
+    font-style:unset;
     font-size: 1.2em;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat" ;
     font-optical-sizing: auto;
 }
 .navbar{
